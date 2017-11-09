@@ -8,6 +8,7 @@
 # df.query('dist > 2000 & < glat < 0.2') would yield a new dataframe
 # where all the rows (sources) are more than 2 kpc and less than
 # galactic longitude of 0.2 degrees.
+
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
